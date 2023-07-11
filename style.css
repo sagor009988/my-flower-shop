@@ -214,7 +214,7 @@ margin-bottom: 24px;
  gap: 15px;
 }
 .sub-head{
- background-image: url('/images/Rectangle\ 9.png');
+ background-image:url('./images/rec.png');
 height: 449px;
  background-position: center;
  background-repeat: no-repeat;
