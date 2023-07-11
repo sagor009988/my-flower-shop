@@ -214,7 +214,7 @@ margin-bottom: 24px;
  gap: 15px;
 }
 .sub-head{
- background-image: url('/images/Rectangle\ 9.png');
+ background-image: url('./images/Rectangle\ 9.png');
 height: 449px;
  background-position: center;
  background-repeat: no-repeat;
@@ -253,4 +253,28 @@ margin-top: -30px;
     background-color: white;
     color: white;
     margin-top: 20px;
+}
+.footer-details{
+    text-align: center;
+    background-color: rgb(10, 14, 17);
+    color: white;
+    padding: 40px;
+    margin-top: 50px;
+}
+.footer-h2{
+    font-size: 48px;
+font-weight: 800;
+padding-bottom: 20px;
+}
+.footer-p{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer-small{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
 }
