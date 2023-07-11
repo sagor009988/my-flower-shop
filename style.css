@@ -10,21 +10,15 @@
     justify-content: space-around; 
     padding-top: 50px;
 }
-
-.wlc-flower{
-   
+.wlc-flower{  
 width: 500px;
 height: 100%;
 margin-right: 40px;
-
-
 }
 .wellcome-info{
-
-  align-items: center;
+ align-items: center;
   margin-top: 130px;
   margin-left: 150px;
-
 }
 .wec-heading{
 color: #272727;
@@ -149,12 +143,18 @@ background: rgba(229, 84, 115, 0.05)
     justify-content: space-evenly;
     align-items: center;
 }
+.online-head{
+    max-width: 100%;
+    height: 350px; 
+    background-color: rgb(242, 243, 197); 
+}
 .heading-red{
     color: red;
 }
 .deal-img{
     width: 318px;
     height: 420px;
+    margin-right: 420px;
 
 }
 .deal-info{
@@ -174,13 +174,10 @@ background: rgba(229, 84, 115, 0.05)
     text-decoration: underline;
     margin-bottom: 20px;
 }
-.online-head{
-    max-width: 100%;
-    height: 350px; 
-    background-color: rgb(187, 222, 224); 
-}
+
 .hot-deal{
-    height: 100vh;
+    width: 1922px;
+    height: 620px;
     margin-top: 80px;
 }
 .instagram-side{
@@ -216,4 +213,44 @@ margin-bottom: 24px;
   margin-right: 240px;
  gap: 15px;
 }
+.sub-head{
+ background-image: url('/images/Rectangle\ 9.png');
+height: 449px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-left: 140px;
+ margin-right: 140px;
 
+}
+.subs-h2{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin: 50px;
+padding-top: 100px;
+
+}
+.subs-p{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-top: -30px;
+}
+.subscribe-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+.email-border{
+    padding: 15px 75px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: white;
+    margin-top: 20px;
+}
