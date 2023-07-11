@@ -7,30 +7,33 @@
     display: flex;
     height: 100vh;
     background-color: blanchedalmond;
- padding-top: 30px;
-   justify-content: space-between;
-  align-items: center;
-   
-    
+    justify-content: space-around; 
+    padding-top: 50px;
 }
 
 .wlc-flower{
    
-width: 300px;
-height: ;
+width: 500px;
+height: 100%;
 margin-right: 40px;
+
 
 }
 .wellcome-info{
-    margin-left: 40px;
+
+  align-items: center;
+  margin-top: 130px;
+  margin-left: 150px;
+
 }
 .wec-heading{
 color: #272727;
-font-size: 30px;
+font-size: 60px;
 font-weight: 800;
 margin-bottom: 20px;
 }
 .wlc-p{
+    width: 70%;
 color: rgba(39, 39, 39, 0.60);
 font-size: 18px;
 font-weight: 400;
@@ -38,21 +41,25 @@ line-height: 30px;
 margin-bottom: 10px;
 }
 .btn{
-    padding: 8px 15px;
+    padding: 15px 25px;
     border: none;
     border-radius: 5px;
     background-color: red;
     color: white;
+    margin-top: 20px;
 }
 .future-info{
+    height: 100vh;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 90px;
+    margin-left: 240px;
+    margin-right: 240px;
   
 }
 .future-heading{ color: #272727;
 text-align: center;
-font-size: 30px;
-font-weight: 400;
+font-size: 40px;
+font-weight: 800;
 margin-bottom: 15px;
 }
 .future-p{color: rgba(39, 39, 39, 0.60);
@@ -62,36 +69,35 @@ font-weight: 300;
 line-height: 30px;
 }
 .f-flower1{
-    width: 200px;
-height:250px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-margin-top: 50px;
+    width: 350px;
+    height: 500px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
 }
 .three-1{
-    width: 150px;
-    height: 200px;
-   margin-top:50px ;
+    width: 310px;
+    height: 428px;
+   margin-top: 72px;
   margin-left: 25px;
 }
 .tree1-title{
     text-align: center;
-    margin-top: px;
+    margin-top: 20px;
     text-decoration: underline;
 }
 .f-flower2{
-    width: 200px;
-height:250px;
-border-radius: 300px 300px 0px 0px;
-background-color: rgba(5, 151, 160, 0.15);
-margin-top: 50px;
+    width: 350px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
 }
 .f-flower3{
-    width: 200px;
-height:250px;
-border-radius: 300px 300px 0px 0px;
-background:rgba(71, 125, 17, 0.15);
-margin-top: 50px;
+    width: 350px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background-color:rgba(71, 125, 17, 0.15);
 }
 .future-flowers{
     display: flex;
@@ -111,18 +117,103 @@ line-height: 35px;
 .icon{
 align-items: center;
 }
+.dl-system{
+    display: flex;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left:240px;
+    margin-right: 240px;
+
+}
+.ydl-da{
+    text-align: center;
+}
 .deal-img{
     width: 150px;
     height: 200px;
 }
 .hot-deal{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    margin: auto;
-    background-color: bisque;
-    padding: 30px;
+height: 620px;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05)
+}
+
+.online-support{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .heading-red{
     color: red;
 }
+.deal-img{
+    width: 318px;
+    height: 420px;
+
+}
+.deal-info{
+    text-align: center;
+}
+.deal-heading{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.online-h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    font-weight: 800;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.online-head{
+    max-width: 100%;
+    height: 350px; 
+    background-color: rgb(187, 222, 224); 
+}
+.hot-deal{
+    height: 100vh;
+    margin-top: 80px;
+}
+.instagram-side{
+    height: 100vh;
+    border: 10px solid red;
+    text-align: center; 
+}
+.instagram-h2{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-top: 80px;
+margin-bottom: 24px;
+}
+.instagram-p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-bottom: 24px;
+}
+.ins-pic{
+    width: 300px;
+    height: 396px;
+}
+.isntagram-pics{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 240px;
+  margin-right: 240px;
+ gap: 15px;
+}
+
